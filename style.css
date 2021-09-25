@@ -1,0 +1,48 @@
+.navbar-light {
+    background: linear-gradient(#4cc9F0, #90E0EF);
+}
+.navbar-brand {
+    height: 200px;
+    line-height: 200px;
+    /* position: relative; */
+}
+
+.cardBackground div {
+    border: 3px solid black;
+    border-radius: 26px;
+    /* max-width: 32% !important; */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cardBackground div:hover {
+    background-color: #ADE8F4;
+}
+
+.cardBackground div:hover > .divbackgroundClose {
+    display: block;
+}
+
+.cardBackground div:hover > .divbackground {
+    display: none;
+}
+
+.divbackground {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -44%);
+    width: 50%;
+}
+.divbackgroundClose {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -44%);
+    width: 50%;
+}
+
+
+  
+  
