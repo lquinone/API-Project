@@ -21,7 +21,7 @@ let filmsContainer = document.getElementById('filmsContainer')
     const json = await response.json();
     displayFilmInfo(json)
 }*/
-let movies = {
+let movies = [
     {
         title: "title1",
         description: "description1"
@@ -39,7 +39,7 @@ let movies = {
         title: "title1",
         description: "description1"
     }
-}
+]
 
 getMovies(movies);
 
