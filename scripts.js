@@ -25,20 +25,20 @@ let movies = [
     {
         title: "title1",
         description: "description1"
-    }
+    },
 
     {
         title: "title1",
         description: "description1"
-    }
+    },
     {
         title: "title1",
         description: "description1"
-    }
+    },
     {
         title: "title1",
         description: "description1"
-    }
+    },
 ]
 
 getMovies(movies);
