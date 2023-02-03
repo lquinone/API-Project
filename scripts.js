@@ -2,11 +2,11 @@
 let filmsContainer = document.getElementById('filmsContainer')
 
 // API URL by films
-const baseURL= 'https://ghibliapi.herokuapp.com/films';
+//const baseURL= 'https://ghibliapi.herokuapp.com/films';
 
-fetch(baseURL)
+/*fetch(baseURL)
 .then(res => res.json())
-.then(json => getMovies(json))
+.then(json => getMovies(json))*/
 
 // function test (data){
 //     console.log(data[0].description)
@@ -15,12 +15,33 @@ fetch(baseURL)
 //     filmsContainer.appendChild(p)
 // }
 
-async function fetchFilms() {
+/*async function fetchFilms() {
     const response = await fetch(baseURL);
     console.log(response);
     const json = await response.json();
     displayFilmInfo(json)
+}*/
+let movies = {
+    {
+        title: "title1",
+        description: "description1"
+    }
+
+    {
+        title: "title1",
+        description: "description1"
+    }
+    {
+        title: "title1",
+        description: "description1"
+    }
+    {
+        title: "title1",
+        description: "description1"
+    }
 }
+
+getMovies(movies);
 
 function getMovies(movies) {
     
